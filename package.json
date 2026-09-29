@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix fifa-players start",
+    "build": "npm --prefix fifa-players run build",
+    "lint": "npm --prefix fifa-players run lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react-bootstrap": "^2.10.10"
+  }
+}

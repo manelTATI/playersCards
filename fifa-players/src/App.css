@@ -1,0 +1,43 @@
+.app-shell {
+	min-height: 100vh;
+	padding: 56px 0 72px;
+}
+
+.app-header {
+	margin: 0 auto 48px;
+	max-width: 720px;
+	text-align: center;
+}
+
+.eyebrow {
+	color: #f5d477;
+	font-size: 0.75rem;
+	font-weight: 800;
+	letter-spacing: 0.24em;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+}
+
+.app-header h1 {
+	color: #fff8df;
+	font-size: clamp(2.4rem, 6vw, 4.8rem);
+	font-weight: 900;
+	letter-spacing: 0.02em;
+	line-height: 0.98;
+	margin-bottom: 18px;
+}
+
+.subtitle {
+	color: #c5d6c3;
+	font-size: 1.05rem;
+	margin-bottom: 0;
+}
+
+.player-card {
+	transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.player-card:hover {
+	box-shadow: 0 18px 40px rgba(0, 0, 0, 0.42), 0 0 28px rgba(245, 212, 119, 0.24);
+	transform: translateY(-8px);
+}
